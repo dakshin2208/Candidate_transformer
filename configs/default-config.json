@@ -1,0 +1,19 @@
+{
+  "description": "Default projection — full canonical schema, provenance and confidence included.",
+  "fields": [
+    { "path": "candidate_id" },
+    { "path": "full_name" },
+    { "path": "emails" },
+    { "path": "phones" },
+    { "path": "location" },
+    { "path": "links" },
+    { "path": "headline" },
+    { "path": "years_experience" },
+    { "path": "skills" },
+    { "path": "experience" },
+    { "path": "education" }
+  ],
+  "include_provenance": true,
+  "include_confidence": true,
+  "on_missing": "null"
+}

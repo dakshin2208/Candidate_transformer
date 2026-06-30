@@ -1,0 +1,12 @@
+Call notes — Dakshin Kumar (07/2026)
+
+Solid call. Confirmed his email dakshin.kumar@gmail.com and reached him on his
+cell, +1 408-555-3300.
+
+He's currently at Vertex AI on the ML platform team and very happy there — not
+looking to move.
+
+Tech he's hands-on with: Python, a ton of Kubernetes, and deep on GCP. Also
+picking up Terraform for the infra side.
+
+Based in Mountain View. Georgia Tech alum.

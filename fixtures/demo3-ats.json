@@ -1,0 +1,36 @@
+{
+  "applicant": {
+    "fullName": "Nadia Osei",
+    "contactEmail": "Nadia.Osei@workmail.com",
+    "mobile": "(646) 555-2020",
+    "currentEmployer": "Datadog",
+    "jobTitle": "Staff Software Engineer",
+    "city": "New York",
+    "state": "NY",
+    "countryName": "United States",
+    "linkedinUrl": "https://linkedin.com/in/nadiaosei",
+    "skillsList": ["Go", "Kubernetes", "AWS"],
+    "employmentHistory": [
+      {
+        "employer": "Datadog",
+        "role": "Staff Software Engineer",
+        "startDate": "2020-09",
+        "endDate": null
+      },
+      {
+        "employer": "Squarespace",
+        "role": "Senior Engineer",
+        "startDate": "2017-01",
+        "endDate": "2020-08"
+      }
+    ],
+    "educationHistory": [
+      {
+        "school": "Columbia University",
+        "degreeName": "B.S.",
+        "fieldOfStudy": "Computer Science",
+        "graduationYear": 2016
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "applicant": {
+    "fullName": "Dakshin Kumar",
+    "contactEmail": "Dakshin.Kumar@Gmail.com",
+    "mobile": "(408) 555-3300",
+    "currentEmployer": "Vertex AI",
+    "jobTitle": "Senior ML Platform Engineer",
+    "city": "Mountain View",
+    "state": "CA",
+    "countryName": "United States",
+    "linkedinUrl": "https://linkedin.com/in/dakshinkumar",
+    "skillsList": ["Python", "Kubernetes", "GCP", "LangChain"],
+    "employmentHistory": [
+      {
+        "employer": "Vertex AI",
+        "role": "Senior ML Platform Engineer",
+        "startDate": "2021-08",
+        "endDate": null
+      },
+      {
+        "employer": "Cloudera",
+        "role": "Data Engineer",
+        "startDate": "2018-03",
+        "endDate": "2021-07"
+      }
+    ],
+    "educationHistory": [
+      {
+        "school": "Georgia Tech",
+        "degreeName": "M.S.",
+        "fieldOfStudy": "Computer Science",
+        "graduationYear": 2018
+      }
+    ]
+  }
+}

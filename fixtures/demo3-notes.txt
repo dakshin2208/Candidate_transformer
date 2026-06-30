@@ -1,0 +1,11 @@
+Call notes — Nadia Osei (07/2026)
+
+Reached her on her personal cell, +1 646-555-8080 — note this is a different
+number than the one on file. Email matches what we have: nadia.osei@workmail.com.
+
+Heads up: the ATS still lists Datadog, but she told me she actually moved to
+Cloudflare about a month ago — same staff-level backend role.
+
+Tech she's strongest in: Go, with a good amount of Rust on the side.
+
+Based in NYC.

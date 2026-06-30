@@ -1,0 +1,17 @@
+Call notes — Priya Sharma (06/2026)
+
+Strong candidate. Reached her on her cell, +1 415-555-0142. Email on file
+is priya.sharma@gmail.com.
+
+Heads up: her LinkedIn still says Stripe but she mentioned she actually
+moved to Databricks about two months ago — same senior backend role. Worth
+updating.
+
+Tech she's hands-on with: Python, Go, and a lot of Kubernetes. Mentioned
+she's been picking up Rust on the side. Did NOT claim PostgreSQL depth when
+I probed — more of a passing familiarity.
+
+Based in SF. Berkeley grad. Open to relocating to NYC for the right offer.
+
+Notes on availability: "sometime after the summer" — wouldn't commit to a
+date.

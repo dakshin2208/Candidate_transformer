@@ -1,0 +1,62 @@
+{
+  "candidate_id": "priya-sharma-001",
+  "full_name": "Priya Sharma",
+  "emails": ["priya.sharma@gmail.com"],
+  "phones": ["+14155550142"],
+  "location": { "city": "San Francisco", "region": "CA", "country": "US" },
+  "links": {
+    "linkedin": "https://linkedin.com/in/priyasharma",
+    "github": null,
+    "portfolio": null,
+    "other": []
+  },
+  "headline": "Senior Backend Engineer",
+  "years_experience": null,
+  "skills": [
+    { "name": "Python",      "confidence": 0.98, "sources": ["ats", "notes"] },
+    { "name": "Kubernetes",  "confidence": 0.98, "sources": ["ats", "notes"] },
+    { "name": "Go",          "confidence": 0.70, "sources": ["notes"] },
+    { "name": "Rust",        "confidence": 0.70, "sources": ["notes"] },
+    { "name": "PostgreSQL",  "confidence": 0.40, "sources": ["ats"] }
+  ],
+  "experience": [
+    {
+      "company": "Stripe",
+      "title": "Senior Backend Engineer",
+      "start": "2022-03",
+      "end": null,
+      "summary": null
+    },
+    {
+      "company": "Twilio",
+      "title": "Backend Engineer",
+      "start": "2019-06",
+      "end": "2022-02",
+      "summary": null
+    }
+  ],
+  "education": [
+    {
+      "institution": "UC Berkeley",
+      "degree": "B.S.",
+      "field": "Computer Science",
+      "end_year": 2019
+    }
+  ],
+  "provenance": [
+    { "field": "full_name",   "source": "ats",   "method": "single_source" },
+    { "field": "emails[0]",   "source": "ats",   "method": "agreement:ats+notes" },
+    { "field": "phones[0]",   "source": "ats",   "method": "agreement:ats+notes;normalized:E164" },
+    { "field": "location",    "source": "ats",   "method": "single_source" },
+    { "field": "links.linkedin", "source": "ats", "method": "single_source" },
+    { "field": "headline",    "source": "ats",   "method": "single_source" },
+    { "field": "experience[0].company", "source": "ats", "method": "precedence:ats>notes;CONFLICT:notes_asserts_Databricks;flagged" },
+    { "field": "skills.Python",     "source": "ats+notes", "method": "union;agreement" },
+    { "field": "skills.Kubernetes", "source": "ats+notes", "method": "union;agreement" },
+    { "field": "skills.Go",         "source": "notes", "method": "union;single_source" },
+    { "field": "skills.Rust",       "source": "notes", "method": "union;single_source" },
+    { "field": "skills.PostgreSQL", "source": "ats",   "method": "union;single_source;notes_dispute" },
+    { "field": "education[0]", "source": "ats", "method": "single_source" }
+  ],
+  "overall_confidence": 0.79
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Recruiter-dashboard projection — flattened, remapped field names, confidence kept but provenance dropped, missing fields omitted. Demonstrates same engine, different output, no code change.",
+  "fields": [
+    { "path": "name",          "from": "full_name" },
+    { "path": "primary_email", "from": "emails[0]" },
+    { "path": "primary_phone", "from": "phones[0]", "normalize": "E164" },
+    { "path": "current_role",  "from": "headline" },
+    { "path": "current_employer", "from": "experience[0].company" },
+    { "path": "top_skills",    "from": "skills[].name", "normalize": "canonical" },
+    { "path": "linkedin",      "from": "links.linkedin" }
+  ],
+  "include_provenance": false,
+  "include_confidence": true,
+  "on_missing": "omit"
+}

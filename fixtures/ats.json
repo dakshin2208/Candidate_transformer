@@ -1,0 +1,36 @@
+{
+  "applicant": {
+    "fullName": "Priya Sharma",
+    "contactEmail": "Priya.Sharma@Gmail.com",
+    "mobile": "(415) 555-0142",
+    "currentEmployer": "Stripe",
+    "jobTitle": "Senior Backend Engineer",
+    "city": "San Francisco",
+    "state": "CA",
+    "countryName": "United States",
+    "linkedinUrl": "https://linkedin.com/in/priyasharma",
+    "skillsList": ["Python", "PostgreSQL", "Kubernetes"],
+    "employmentHistory": [
+      {
+        "employer": "Stripe",
+        "role": "Senior Backend Engineer",
+        "startDate": "2022-03",
+        "endDate": null
+      },
+      {
+        "employer": "Twilio",
+        "role": "Backend Engineer",
+        "startDate": "2019-06",
+        "endDate": "2022-02"
+      }
+    ],
+    "educationHistory": [
+      {
+        "school": "UC Berkeley",
+        "degreeName": "B.S.",
+        "fieldOfStudy": "Computer Science",
+        "graduationYear": 2019
+      }
+    ]
+  }
+}
